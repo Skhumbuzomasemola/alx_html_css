@@ -1,1 +1,25 @@
+/* style.css */
 
+/* 1. Set up the <body> container as a vertical flexbox */
+body { 
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+main { 
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+artical {
+  flex: 1;
+  overflow-y: auto;
+}
+
+header, footer, artical, aside {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
