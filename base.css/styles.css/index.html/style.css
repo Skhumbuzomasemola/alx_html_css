@@ -1,6 +1,5 @@
 /* style.css */
 
-/* 1. Set up the <body> container as a vertical flexbox */
 body { 
   display: flex;
   flex-direction: column;
