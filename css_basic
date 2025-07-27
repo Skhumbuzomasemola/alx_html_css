@@ -1,1 +1,46 @@
+.banner {
+  width: 100%;
+  height: 600px; /* exact height from Figma */
+  background-image: url('../images/banner.jpg'); /* exact path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* or center */
+  padding: 0 60px;
+  color: #fff; /* usually white on banner */
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
 
+/* Banner Heading */
+.banner h1 {
+  font-size: 48px; /* Figma size */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Banner paragraph */
+.banner p {
+  font-size: 20px; /* Figma size */
+  max-width: 600px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+/* Banner CTA button */
+.banner button {
+  background-color: #007BFF; /* Figma button color */
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #0056b3; /* Figma hover */
+}
