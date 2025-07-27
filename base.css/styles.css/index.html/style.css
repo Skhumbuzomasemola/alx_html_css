@@ -1,5 +1,19 @@
 /* style.css */
 
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body font and background */
+body {
+  font-family: 'Your Figma Font Name', sans-serif; /* Replace with Figma font */
+  background-color: #fff; /* Replace with Figma background color if needed */
+  color: #333; /* Base text color */
+}
+
 body { 
   display: flex;
   flex-direction: column;
