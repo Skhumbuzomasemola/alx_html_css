@@ -229,4 +229,59 @@ header, footer, artical, aside {
   color: #222;
 }
 
+/* === Footer Section === */
+.footer {
+  background-color: #1a1a1a; /* Replace with Figma color */
+  color: #ffffff;
+  padding: 60px 20px 30px;
+  font-size: 0.95rem;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-logo img {
+  width: 120px; /* adjust based on Figma */
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #00aced; /* Figma hover color */
+}
+
+.footer-socials a img {
+  width: 24px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-socials a:hover img {
+  transform: scale(1.1);
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
 
