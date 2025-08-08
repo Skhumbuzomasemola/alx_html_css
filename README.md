@@ -1,41 +1,5 @@
 # alx_html_css
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Headphones</title>
-  <style>
-    a:hover,
-    a:active {
-      color: #FF6565;
-    }
+# Headphones Project
 
-.my-button {
-  opacity: 1;
-  transition: opacity 0.2s ease-in-out; 
-}
-
-.my-button:hover,
-.my-button:active {
-  opacity: 0.9;
-}
-
-.container {
-      width: 100%;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 0 1rem; 
-    }
-     @media (max-width: 480px) {
-    .container {
-      padding: 0 0.5rem;
-    }
-  </style>
-</head>
-<body>
-    <button class="my-button">Click Me</button>
-</body>
-</html>
-
+A responsive headphones landing page based on Figma design. Includes mobile layout switch at ≤480px, styled hover/active states, and a centered container maxing at 1000px.
