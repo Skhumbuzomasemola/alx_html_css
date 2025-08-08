@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="mobile version, initial-scale=480px">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphones</title>
   <style>
     a:hover,
