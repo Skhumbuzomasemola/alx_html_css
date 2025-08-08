@@ -2,4 +2,8 @@
 
 # Headphones Project
 
-A responsive headphones landing page based on Figma design. Includes mobile layout switch at ≤480px, styled hover/active states, and a centered container maxing at 1000px.
+A responsive landing page inspired by a Figma design. Includes:
+- Mobile layout switch at ≤ 480px
+- Link hover/active color: `#FF6565`
+- Button hover/active opacity: `0.9`
+- Centered content container max‑width: `1000px`
