@@ -1,3 +1,37 @@
 # alx_html_css
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="mobile version, initial-scale=480px">
+    <title>Headphones</title>
+  <style>
+    a:hover,
+    a:active {
+      color: #FF6565;
+    }
+
+.my-button {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out; 
+}
+
+.my-button:hover,
+.my-button:active {
+  opacity: 0.9;
+}
+
+.container {
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 1rem; 
+    }
+  </style>
+</head>
+<body>
+    <button class="my-button">Click Me</button>
+</body>
+</html>
 
