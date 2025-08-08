@@ -28,6 +28,10 @@
       margin: 0 auto;
       padding: 0 1rem; 
     }
+     @media (max-width: 480px) {
+    .container {
+      padding: 0 0.5rem;
+    }
   </style>
 </head>
 <body>
