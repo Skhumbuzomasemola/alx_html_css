@@ -35,6 +35,15 @@ body {
     .container {
       padding: 0 0.5rem;
     }
+
+@font-face {
+  font-family: 'Spin Cycle OT';
+  src: url('fonts/SpinCycleOT.woff2') format('woff2'),
+       url('fonts/SpinCycleOT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
   </style>
 </head>
 <body>
