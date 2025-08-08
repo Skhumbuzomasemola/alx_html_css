@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Headphones</title>
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
-  <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headphones</title>
 
-h1, .logo {
-  font-family: 'Spin Cycle OT', sans-serif;
-}
-body {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-}
-    a:hover,
-    a:active {
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Self-hosted custom font */
+    @font-face {
+      font-family: 'Spin Cycle OT';
+      src: url('fonts/SpinCycleOT.woff2') format('woff2'),
+           url('fonts/SpinCycleOT.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    body {
+      font-family: 'Source Sans Pro', Arial, sans-serif;
+    }
+
+    h1, .logo {
+      font-family: 'Spin Cycle OT', sans-serif;
+    }
+
+    /* Interaction & layout styles */
+    a:hover, a:active {
       color: #FF6565;
     }
 
-.my-button {
-  opacity: 1;
-  transition: opacity 0.2s ease-in-out; 
-}
-
-.my-button:hover,
-.my-button:active {
-  opacity: 0.9;
-}
-
-.container {
-      width: 100%;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 0 1rem; 
+    .my-button {
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
     }
-     @media (max-width: 480px) {
+
+    .my-button:hover, .my-button:active {
+      opacity: 0.9;
+    }
+
     .container {
-      padding: 0 0.5rem;
+      width: 100%; max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 1rem;
     }
 
-@font-face {
-  font-family: 'Spin Cycle OT';
-  src: url('fonts/SpinCycleOT.woff2') format('woff2'),
-       url('fonts/SpinCycleOT.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 0.5rem;
+      }
+    }
   </style>
 </head>
 <body>
