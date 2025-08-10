@@ -5,16 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Headphones</title>
   <link rel="stylesheet" href="styles.css">
-<img src="assets/01_headphones_mobile@2x 3.png" alt="Description of icon">
+<style>
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fonts & Colors */
 body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
@@ -22,7 +20,6 @@ body {
   background: #091d36;
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   background: #ff6565;
@@ -36,7 +33,6 @@ body {
   opacity: 0.9;
 }
 
-/* Header */
 .header {
   padding: 15px;
   display: flex;
@@ -49,7 +45,6 @@ body {
   gap: 5px;
 }
 
-/* Hero */
 .hero {
   padding: 20px;
   text-align: center;
@@ -66,7 +61,7 @@ body {
   color: #ccc;
 }
 
-/* What we do */
+
 .what-we-do {
   background: #fff;
   color: #000;
@@ -86,7 +81,7 @@ body {
   margin-top: 10px;
 }
 
-/* Results */
+
 .results {
   padding: 30px 15px;
   text-align: center;
@@ -103,7 +98,6 @@ body {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
-/* Contact */
 .contact {
   padding: 30px 15px;
   background: #fff;
@@ -122,7 +116,6 @@ body {
   margin-top: 15px;
 }
 
-/* Footer */
 .footer {
   padding: 20px;
   text-align: center;
@@ -141,22 +134,19 @@ body {
   margin: 0 5px;
 }
 
-/* Mobile-first: This already matches the screenshot */
-
-/* ===== Desktop Layout (≥ 481px) ===== */
 @media (min-width: 481px) {
   body {
-    background: #fff; /* Background adjusts so sections stand out */
+    background: #fff; 
     color: #000;
   }
 
-  /* Center content with max width */
+  
   main, header, section, footer {
     max-width: 1000px;
     margin: 0 auto;
   }
 
-  /* Hero section in two columns (image + text) if you have background image */
+  
   .hero {
     text-align: left;
     padding: 40px 20px;
@@ -170,7 +160,7 @@ body {
     max-width: 500px;
   }
 
-  /* What we do - icons in grid */
+  
   .icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -178,7 +168,7 @@ body {
     margin-top: 30px;
   }
 
-  /* Results - stats in row */
+ 
   .stats {
     flex-direction: row;
     justify-content: center;
@@ -194,24 +184,25 @@ body {
     color: #fff;
   }
 
-  /* Contact form - narrower */
+  
   .contact form {
     max-width: 500px;
     margin: 0 auto;
   }
 
-  /* Footer horizontal layout */
+ 
   .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-
+</style>
 </head>
 <body>
+<img src="archive 2/01_headphones_mobile@2x.png" alt="headphones">
 
-  <!-- Header -->
+
   <header class="header">
     <div class="logo">
       <img src="images/logo.png" alt="Headphones logo">
@@ -219,7 +210,7 @@ body {
     </div>
   </header>
 
-  <!-- Hero -->
+  
   <section class="hero">
     <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
     <p>Lorem ipsum dolor set amet lorem ipsum dolor set</p>
@@ -227,9 +218,10 @@ body {
     <p class="hero-text">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore...
     </p>
+<img src="alx_html_css/Untitled.svg" alt="headphones image">
   </section>
 
-  <!-- What we do -->
+
   <section class="what-we-do">
     <h2>What we do…</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -257,7 +249,7 @@ body {
     </div>
   </section>
 
-  <!-- Our results -->
+  
   <section class="results">
     <h2>Our results speak for themselves</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -269,7 +261,7 @@ body {
     </div>
   </section>
 
-  <!-- Contact -->
+
   <section class="contact">
     <h2>Contact us</h2>
     <form>
@@ -280,7 +272,6 @@ body {
     </form>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="footer-logo">
       <img src="images/logo.png" alt="Headphones logo">
