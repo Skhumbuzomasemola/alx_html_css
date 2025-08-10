@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Headphones</title>
   <link rel="stylesheet" href="styles.css">
+<img src="assets/01_headphones_mobile@2x 3.png" alt="Description of icon">
 
 /* Reset */
 * {
